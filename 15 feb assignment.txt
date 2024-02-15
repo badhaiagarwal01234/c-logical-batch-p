@@ -72,3 +72,45 @@ int main()
     return 0;
 }
 
+
+4)
+#include <stdio.h>
+
+int main() {
+    char name1[50], name2[50], name3[50], name4[50], name5[50];
+    char email1[100], email2[100], email3[100], email4[100], email5[100];
+
+    printf("Enter name 1: ");
+    scanf("%s", name1);
+    printf("Enter name 2: ");
+    scanf("%s", name2);
+    printf("Enter name 3: ");
+    scanf("%s", name3);
+    printf("Enter name 4: ");
+    scanf("%s", name4);
+    printf("Enter name 5: ");
+    scanf("%s", name5);
+
+    printf("Enter email address 1: ");
+    scanf("%s", email1);
+    printf("Enter email address 2: ");
+    scanf("%s", email2);
+    printf("Enter email address 3: ");
+    scanf("%s", email3);
+    printf("Enter email address 4: ");
+    scanf("%s", email4);
+    printf("Enter email address 5: ");
+    scanf("%s", email5);
+
+    printf("\nNames entered:\n");
+    printf("%s\t%s\t%s\t%s\t%s\n", name1, name2, name3, name4, name5);
+
+    printf("\nEmail addresses entered:\n");
+    printf("%s\n", email1);
+    printf("%s\n", email2);
+    printf("%s\n", email3);
+    printf("%s\n", email4);
+    printf("%s\n", email5);
+
+    return 0;
+}
