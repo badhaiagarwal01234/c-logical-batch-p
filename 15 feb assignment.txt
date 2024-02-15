@@ -1,0 +1,74 @@
+1)
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter the number of the table : ");
+    scanf("%d",&a);
+     printf("table %d\n",a*1);
+    printf("table %d\n",a*2);
+    printf("table %d\n",a*3);
+    printf("table %d\n",a*4);
+     printf("table %d\n",a*5);
+      printf("table %d\n",a*6);
+       printf("table %d\n",a*7);
+        printf("table %d\n",a*8);
+     printf("table %d\n",a*9);
+      printf("table %d\n",a*10);
+    return 0;
+}
+
+
+2)
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("enter the number a and b : ");
+    scanf("%d %d",&a,&b);
+    c=a+b;
+    printf("addition of two number is %d",c);
+    return 0;
+}
+
+
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("enter the number a and b : ");
+    scanf("%d %d",&a,&b);
+    c=a-b;
+    printf("subtraction of two number is %d",c);
+    return 0;
+}
+
+
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("enter the number a and b : ");
+    scanf("%d %d",&a,&b);
+    printf("multiplication of two number is %d\n",c=a*b);
+     printf("dividation of two number is %d",c=a/b);
+    return 0;
+}
+
+
+3)
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("enter the number a and b : ");
+    scanf("%d %d",&a,&b);
+    
+    printf("%d\n",c=a>b);
+     printf("%d\n",c=a<b);
+      printf("%d\n",c=a>=b);
+       printf("%d\n",c=a<=b);
+        printf("%d\n",c=a==b);
+    return 0;
+}
+
