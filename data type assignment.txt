@@ -1,0 +1,118 @@
+#include<stdio.h>
+int main(){
+    int a=23;
+    printf("%d\n",a);
+    int b=65;
+    printf("%d\n",b);
+    int c=-23;
+    printf("%d\n",a);
+    float d=1.56;
+    printf("%f\n",d);
+    float e=0.8;
+    printf("%f\n",e);
+    float f=-2.752;
+    printf("%f\n",f);
+    char g='t';
+    printf("%c\n",g);
+    int h=01234;
+    printf("%d\n",h);
+    int i=0;
+    printf("%d\n",i);
+    return 0;
+}
+
+
+#include<stdio.h>
+int main(){
+   int a=4;
+   int b=2;
+   int c=a-b;
+   printf("%d",c);
+   return 0;
+}
+
+
+
+#include<stdio.h>
+int main(){
+   int a=12;
+   int b=56;
+   int c=a*b;
+   printf("%d",c);
+   return 0;
+}
+
+
+
+#include<stdio.h>
+int main(){
+   int a=12;
+   int b=2;
+   int c=a/b;
+   printf("%d",c);
+   return 0;
+}
+
+
+#include<stdio.h>
+int main(){
+   int a=34;
+   int b=56;
+   int c=12;
+   int d=45;
+   int e=a+b+c+d;
+   printf("%d",e);
+   return 0;
+}
+
+
+#include<stdio.h>
+int main(){
+   int a=23;
+   int b=2;
+   int c=9;
+   int d=34;
+   int e=a*b-c+d;
+   printf("%d",e);
+   return 0;
+}
+
+
+#include<stdio.h>
+int main(){
+   int a=12;
+   int b=34;
+   int c=2;
+   int d=45;
+   int e=a+(b*c)-d;
+   printf("%d",e);
+   return 0;
+}
+
+
+#include<stdio.h>
+int main(){
+   float num=1.2;
+   int a=34;
+   int b=1;
+   int c=2;
+   int d=45;
+   int e=num*(a+b)/c+d;
+   printf("%d",e);
+   return 0;
+}
+
+
+#include<stdio.h>
+int main(){
+   float num=4.5;
+   int a=2;
+    float b=8.9;
+     float c=1.2;
+   int d=89;
+   int e=2;
+   int f=34;
+   int g=num*a+b*c-d/e+f;
+   printf("%d",g);
+   return 0;
+}
