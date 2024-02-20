@@ -1,0 +1,159 @@
+#include<stdio.h>
+int main(){
+    int num;
+    
+    for(num=1;num<=15;num++){
+        printf("\nprint square of each value %d",num*num);
+    }
+    return 0;
+}
+
+
+#include<stdio.h>
+int main(){
+    int num;
+    int total=0;
+    
+    for(num=1;num<=10;num++){
+        printf(" %d",num);
+        total=total+num;
+    }
+    printf("total value is %d",total);
+    return 0;
+}
+
+
+
+#include<stdio.h>
+int main(){
+    int x,y;
+    
+    int total=0;
+    
+    for(x=1,y=25;x<=3;x++){
+        printf(" \n number is%d",x+y);
+    }
+        
+    return 0;
+}
+
+
+#include<stdio.h>
+int main(){
+    int x,y;
+    
+    int total=0;
+    
+    for(x=1,y=25;x<=3;x++){
+        printf(" \n number is%d",x+y);
+    }
+        for (x=10;x>=1;x--){
+            printf("\n value is decrease%d",x);
+        }
+    return 0;
+}
+
+
+#include<stdio.h>
+int main(){
+    int p,r,t;
+    printf("enter the values");
+    scanf("%d%d%d",&p,&r,&t);
+    
+    printf("%d",p*r*t/100);
+        
+    return 0;
+}
+
+
+#include<stdio.h>
+int main(){
+   char ch;
+   printf("enter the character :");
+   scanf("%c",&ch);
+   if(ch=='a'|| ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+       printf("vowel%c\n",ch);
+   }
+   else {
+       printf("consonent");
+   }
+   
+        
+    return 0;
+}
+
+
+#include<stdio.h>
+int main(){
+   int num;
+   int total=1;
+   for(num=1;num<=100;num++){
+       printf("natural numbers%d\n",num);
+       total=total+num;
+   }
+   printf("total value is\n%d",total);
+   return 0;
+}
+
+
+
+#include<stdio.h>
+int main(){
+   int num;
+   int total=1;
+   for(num=1;num<=50;num++){
+       printf("natural numbers%d\n",num);
+       total=total+num/50;
+   }
+   printf("total value is\n%d",total);
+   return 0;
+}
+
+
+#include<stdio.h>
+int main(){
+   int x,y;
+   
+  printf("enter the value");
+  scanf("%d%d",&x,&y);
+  int z;
+  printf("enter the choice");
+  scanf("%d",&z);
+  
+  if(z==1){
+      printf("addition %d",x+y);
+  }
+  else if(z==2){
+      printf("subtarct %d",x-y);
+  }
+ else if(z==3){
+      printf("multiply %d",x*y);
+  }
+  else if(z==4){
+      printf("divide %d",x/y);
+  }
+  else if(z==5){
+      printf("modular %d",x%y);
+  }
+  else{
+      printf("select between 1 to 5");
+  }
+  
+   return 0;
+}
+
+
+
+#include<stdio.h>
+int
+main ()
+{
+  int num;
+  for (num = 4; num <= 78; num++)
+	{
+	  if (num % 2 == 1){
+		printf ("odd numbers%d\n", num);
+	  }
+	}
+  return 0;
+}
