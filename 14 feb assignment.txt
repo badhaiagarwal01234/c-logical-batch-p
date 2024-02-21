@@ -1,0 +1,68 @@
+1)C programming is considered as the base for other programming languages, that is why it is known as mother language.
+
+It can be defined by the following ways:
+->Mother language
+->System programming language
+->Procedure-oriented programming language
+->Structured programming language
+->Mid-level programming language
+
+C is the widely used language. It provides many features that are given below.
+
+Simple
+Machine Independent or Portable
+Mid-level programming language
+structured programming language
+Rich Library
+Memory Management
+Fast Speed
+Pointers
+Recursion
+Extensible
+
+
+2)Keywords are predefined word that gets reserved for working program that have special meaning and cannot get used anywhere else.
+->Specify the type/kind of entity.
+->It always starts with a lowercase letter.
+->A keyword should be in lower case.
+->A keyword contains only alphabetical characters.
+->They help to identify a specific property that exists within a computer language.
+->No special symbol, punctuation is used.
+->Examples of keywords are: int, char, if, while, do, class etc.
+
+Identifiers are the values used to define different programming items such as variables, integers, structures, unions and others and mostly have an alphabetic character.
+->Identify the name of a particular entity.
+->First character can be a uppercase, lowercase letter or underscore.
+->An identifier can be in upper case or lower case.
+->An identifier can consist of alphabetical characters, digits and underscores.
+->They help to locate the name of the entity that gets defined along with a keyword.
+->No punctuation or special symbol except ‘underscore’ is used.
+->Examples of identifiers are: Test, count1, high_speed, etc.
+
+
+3)An operator in C can be defined as the symbol that helps us to perform some specific mathematical, relational, bitwise, conditional, or logical computations on values and variables. The values and variables used with operators are called operands. So we can say that the operators are the symbols that perform operations on operands.
+
+->Types of Operators in C:
+C language provides a wide range of operators that can be classified into 6 types based on their functionality:
+
+1)Arithmetic Operators-it is used for mathamatical terms.
+
+symbols-
++,-,*,/,%
+
+2)Relational Operators-it is used to make a condition and comparission between two and more variables.
+
+symbols-
+<,>,<=,>=,==,!=
+
+3)Logical Operators-it is check one or more condition and a condition is true or false.
+
+symbols-
+and &&, or ||
+
+4)Assignment Operators-it is used to assign the values.
+
+symbols-
+=
+
+5)ternary Operators
